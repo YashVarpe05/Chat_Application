@@ -41,16 +41,31 @@
 							<!-- <br /> -->
 						</div>
 						<div class="field-1">
-							<input type="text" placeholder="First Name" />
+							<input
+								type="text"
+								placeholder="First Name"
+								pattern="[A-Za-z]"
+								required
+							/>
 							<!-- <br /> -->
-							<input type="text" placeholder="Last Name " />
+							<input
+								type="text"
+								placeholder="Last Name "
+								pattern="[A-Za-z]"
+								required
+							/>
 						</div>
 						<div class="field">
 							<label>Email address</label>
 							<br />
 							<br />
 
-							<input type="text" placeholder="Enter Email address " />
+							<input
+								type="text"
+								placeholder="Enter Email address "
+								pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+								required
+							/>
 						</div>
 						<div class="field-1">
 							<label>Password </label>
@@ -58,9 +73,13 @@
 							<!-- <br /> -->
 						</div>
 						<div class="field-1 pass-btn">
-							<input type="password" placeholder="Enter Password" />
+							<input type="password" placeholder="Enter Password" required />
 							<!-- <br /> -->
-							<input type="password" placeholder="Enter confirm Password " />
+							<input
+								type="password"
+								placeholder="Enter confirm Password "
+								required
+							/>
 						</div>
 						<div class="field photo-btn">
 							<label for="">Photo</label>
@@ -75,6 +94,7 @@
 									padding-left: 10px;
 									cursor: pointer;
 								"
+								required
 							/>
 						</div>
 						<div class="field-btn">
@@ -82,6 +102,7 @@
 								type="submit"
 								placeholder="Continue to Chat"
 								value="Create free Account"
+								required
 							/>
 						</div>
 					</div>
