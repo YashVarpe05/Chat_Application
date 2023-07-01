@@ -138,22 +138,36 @@ body {
 	height: 50px;
 	width: calc(100% - 80px);
 	border: 2px solid #ccc;
-
+	opacity: 0;
+	pointer-events: none;
+	transition: all 0.2s ease;
 	padding: 0 13px;
 	font-size: 16px;
 	border-radius: 12px;
 	outline: none;
+}
+.users .search input.active {
+	opacity: 1;
+	pointer-events: auto;
 }
 .users .search button {
 	width: 75px;
 	height: 42px;
 	border: none;
 	outline: none;
-	color: #fff;
-	background-color: #333;
+	color: #333;
+	background-color: #fff;
 	cursor: pointer;
 	font-size: 17px;
 	border-radius: 0 5px 5px 0;
+	transition: all 0.2s ease;
+}
+.users .search button.active {
+	color: #fff;
+	background: #333;
+}
+.users .search button.active i::before {
+	content: "\F00d";
 }
 .users-list {
 	max-height: 350px;

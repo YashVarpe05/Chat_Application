@@ -38,6 +38,10 @@ body {
 	margin-top: 18%;
 	/* margin-right: 30px; */
 }
+.form form .field i.active::before {
+	color: #333;
+	content: "\f070";
+}
 
 .container .form .form1 .hero-title h1 {
 	color: #fff;
