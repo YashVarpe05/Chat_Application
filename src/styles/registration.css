@@ -1,0 +1,305 @@
+body {
+	overflow-x: hidden;
+	background-color: #131619;
+}
+/* Add the following CSS rules to your stylesheet */
+
+/* Hide the scrollbar completely, including scrolling functionality */
+body::-webkit-scrollbar {
+	width: 0.5rem; /* Adjust the width to your preference */
+	display: none;
+	height: 150vh;
+}
+
+.login-img img {
+	width: 100%;
+	height: 1024px;
+	/* flex-shrink: 0; */
+	/* width: 70%; */
+}
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+/* align-items: center; */
+.wrapper .form {
+	margin-left: 5%;
+	margin-right: 3%;
+}
+
+.wrapper .header_logo {
+	display: flex;
+	width: 700px;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 2%;
+}
+.wrapper .header_logo img {
+	width: 35px;
+	height: 35px;
+	margin: 20px -50px;
+}
+
+.wrapper .header_logo a {
+	font-size: 1.2rem;
+	font-family: Plus Jakarta Sans;
+
+	font-weight: 800;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+
+	/* Define the gradient */
+	background-image: linear-gradient(45deg, #82dbf7 0.67%, #b6f09c 100%);
+}
+
+/*! ending header section  */
+
+/* starting of hero section of login page */
+
+.wrapper .form1 {
+	margin-top: 8%;
+}
+
+.wrapper .hero-title {
+	color: #fff;
+	font-size: 36px;
+	font-family: Plus Jakarta Sans;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 44px;
+	margin-bottom: 62px;
+}
+
+.wrapper .name-details .field-1 {
+	display: flex;
+	align-items: flex-start;
+	gap: 24px;
+	align-self: stretch;
+	margin-bottom: 2%;
+
+	color: #9b9c9e;
+
+	font-size: 14px;
+	font-family: Plus Jakarta Sans;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 20px;
+	letter-spacing: 0.15px;
+}
+.wrapper .name-details .field-1 label {
+	width: 52%;
+}
+.wrapper .name-details .field-1 input {
+	height: 48px;
+	width: 50%;
+	color: #fff;
+
+	padding: 0px 16px;
+	align-items: center;
+	gap: 12px;
+	align-self: stretch;
+	margin-bottom: 2%;
+
+	border-radius: 8px;
+	border: 1px solid var(--noble-black-500, #363a3d);
+	background: var(--noble-black-600, #1a1d21);
+}
+.wrapper .name-details .field {
+	margin-bottom: 5%;
+
+	color: #9b9c9e;
+
+	font-size: 14px;
+	font-family: Plus Jakarta Sans;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 20px;
+	letter-spacing: 0.15px;
+}
+.wrapper .name-details .field input {
+	height: 48px;
+	width: 100%;
+	padding: 0px 16px;
+	color: #fff;
+
+	align-items: center;
+	gap: 12px;
+	align-self: stretch;
+
+	border-radius: 8px;
+	border: 1px solid var(--noble-black-500, #363a3d);
+	background: var(--noble-black-600, #1a1d21);
+}
+.wrapper .name-details .field label {
+	/* margin-bottom: 40px; */
+	margin-top: 5%;
+}
+.wrapper .name-details .field-btn input {
+	width: 676px;
+	height: 48px;
+
+	justify-content: center;
+	align-items: center;
+	border: 2px solid;
+	border-radius: 12px;
+	background: var(--stem-green-500, #b6f09c);
+
+	font-size: 15px;
+	font-weight: 700;
+}
+.wrapper .form .link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5%;
+	color: #9b9c9e;
+}
+.wrapper .form .link a {
+	font-style: none;
+	font-family: Plus Jakarta Sans;
+	color: #b6f09c;
+	margin-left: 20%;
+}
+
+/* hover animation  */
+
+.wrapper .header_logo a:hover {
+	scale: 1.1;
+	transition: 0.8s;
+}
+
+.wrapper .form1 .name-details .field-1 input:hover {
+	scale: 1.1;
+	transition: 0.9s;
+	box-shadow: rgb(112, 62, 254, 0.4) 5px 5px, rgba(112, 62, 254, 0.3) 10px 10px,
+		rgba(112, 62, 254, 0.2) 15px 15px, rgba(112, 62, 254, 0.1) 20px 20px,
+		rgba(112, 62, 254, 0.05) 25px 25px;
+}
+
+.wrapper .form1 .name-details .field input:hover {
+	scale: 1.1;
+	transition: 0.9s;
+	box-shadow: rgba(116, 226, 43, 0.4) 5px 5px, rgba(116, 226, 43, 0.3) 10px 10px,
+		rgba(119, 226, 43, 0.2) 15px 15px, rgba(119, 226, 43, 0.1) 20px 20px,
+		rgba(119, 226, 43, 0.05) 25px 25px;
+}
+.wrapper .form1 .name-details .pass-btn input:hover {
+	scale: 1.1;
+	transition: 0.9s;
+	box-shadow: rgba(226, 43, 43, 0.4) 5px 5px, rgba(226, 43, 43, 0.3) 10px 10px,
+		rgba(226, 43, 43, 0.2) 15px 15px, rgba(226, 43, 43, 0.1) 20px 20px,
+		rgba(226, 43, 43, 0.05) 25px 25px;
+}
+
+.wrapper .form1 .name-details .photo-btn input:hover {
+	scale: 1.1;
+	transition: 0.9s;
+	box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+		rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
+		rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.wrapper .form1 .name-details .field-btn input:hover {
+	scale: 1.1;
+	transition: 0.9s;
+	background-color: #703efe;
+	border: none;
+	color: #fff;
+	box-shadow: rgba(225, 241, 84, 0.641) 0px 22px 70px 4px;
+}
+
+.wrapper .form .link a:hover {
+	scale: 1.1;
+	transition: 0.9s;
+	text-decoration: underline;
+	border: 2px solid #b6f09c;
+	border-radius: 12px;
+	text-align: center;
+	padding-top: 5px;
+	width: 120px;
+	height: 35px;
+}
+
+/* media queries */
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+	.wrapper .header_logo {
+		width: 100%;
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+
+	.wrapper .form,
+	.login-img {
+		margin: 0;
+	}
+
+	.wrapper .header_logo img {
+		margin: 0;
+	}
+
+	.wrapper .form1 .name-details .field-1,
+	.wrapper .name-details .field {
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.wrapper .name-details .field-1 input,
+	.wrapper .name-details .field input {
+		width: 100%;
+	}
+
+	.wrapper .name-details .field-photo input {
+		padding-top: 10px;
+		padding-left: 5px;
+	}
+
+	.wrapper .form1 .name-details .field-btn input {
+		width: 100%;
+	}
+}
+
+/* Adjustments for smaller screens (e.g., smartphones) */
+@media (max-width: 480px) {
+	.wrapper .form1 {
+		margin-top: 5%;
+	}
+
+	.wrapper .hero-title {
+		font-size: 24px;
+		line-height: 30px;
+		margin-bottom: 40px;
+	}
+
+	.wrapper .name-details .field-1,
+	.wrapper .name-details .field {
+		flex-direction: column;
+		gap: 8px;
+	}
+
+	.wrapper .name-details .field-1 label,
+	.wrapper .name-details .field label {
+		width: 100%;
+	}
+
+	.wrapper .name-details .field-1 input,
+	.wrapper .name-details .field input,
+	.wrapper .name-details .field-photo input,
+	.wrapper .form1 .name-details .field-btn input {
+		font-size: 12px;
+		height: 36px;
+	}
+
+	.wrapper .form .link {
+		font-size: 12px;
+	}
+
+	.wrapper .form .link a {
+		font-size: 12px;
+		margin-left: 10%;
+	}
+}
