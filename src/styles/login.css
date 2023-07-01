@@ -10,6 +10,7 @@ body {
 	width: 90%;
 	height: 1024px;
 	margin-left: 30%;
+	object-fit: cover;
 	/* flex-shrink: 0; */
 	/* padding-left: -50px; */
 }

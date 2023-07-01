@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: "Poppins", sans-serif;
+}
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background: #000000;
+	padding: 0 10px;
+}
+
+.Rectangle3 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 950px;
+	width: 100%;
+	background: #d9d9d9;
+	border-radius: 50px;
+	margin: 90px 305px;
+}
+.Rectangle3 {
+	box-shadow: 0px 0px 195px rgba(85, 255, 0, 0.64);
+	animation: rainbow 5s infinite linear;
+}
+
+.users {
+	padding: 15px 30px;
+}
+.users header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 50rem;
+	padding-bottom: 20px;
+	/* text-decoration: underline; */
+	margin-top: -20%;
+	/* margin-left: -30px; */
+	/* border: 1px solid #e6e6e6; */
+}
+.wrapper img {
+	object-fit: cover;
+	border-radius: 50%;
+}
+.users header .content {
+	display: flex;
+	margin-top: 20%;
+}
+
+.users header .content .details {
+	margin-left: 20px;
+	font-size: 20px;
+	text-align: left;
+	padding: 50px 50px;
+}
+
+.users header .content .details span {
+	color: #000;
+	font-size: 20px;
+	font-family: Plus Jakarta Sans;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+}
+.users header .content .details p {
+	color: #000;
+	font-size: 15px;
+	font-family: Plus Jakarta Sans;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+}
+.users .content .Status {
+	width: 25px;
+	height: 25px;
+	position: relative;
+	border-radius: 20px;
+	flex-direction: column;
+	background-color: rgba(74, 201, 126, 1);
+	justify-content: flex-start;
+	align-items: flex-start;
+	display: flex;
+	right: 9%;
+}
+.users .content .Status-2 {
+	width: 12px;
+	height: 12px;
+	position: relative;
+	border-radius: 20px;
+	flex-direction: column;
+	background-color: #42ff12;
+	justify-content: flex-start;
+	align-items: flex-start;
+	display: flex;
+	top: 28%;
+
+	right: 20%;
+}
+.wrapper .users .logout {
+	width: 174px;
+	height: 47px;
+	flex-shrink: 0;
+	margin-top: 20%;
+	border-radius: 8px;
+	background: linear-gradient(45deg, red, rgb(0, 140, 255));
+	text-align: center;
+	padding: 13px;
+	color: #fff;
+	font-size: 20px;
+	font-family: Plus Jakarta Sans;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+}
+
+.users .search {
+	margin: 30px 0;
+	display: flex;
+	align-items: center;
+	position: relative;
+	justify-content: space-between;
+}
+
+.users .search .text {
+	font-size: 18px;
+}
+.users .search input {
+	position: absolute;
+	height: 50px;
+	width: calc(100% - 80px);
+	border: 2px solid #ccc;
+
+	padding: 0 13px;
+	font-size: 16px;
+	border-radius: 12px;
+	outline: none;
+}
+.users .search button {
+	width: 75px;
+	height: 42px;
+	border: none;
+	outline: none;
+	color: #fff;
+	background-color: #333;
+	cursor: pointer;
+	font-size: 17px;
+	border-radius: 0 5px 5px 0;
+}
+.users-list {
+	max-height: 350px;
+	overflow-y: auto;
+}
+
+.users-list a {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 50rem;
+	margin-top: 0px;
+	margin-left: -30px;
+	margin-bottom: 1%;
+	margin-bottom: 15px;
+	page-break-after: 10px;
+	padding-right: 15px;
+	border-bottom-color: #f1f1f1;
+}
+.users-list a:last-child {
+	border: none;
+	margin-bottom: 0px;
+}
+.users-list a .content img {
+	width: 60px;
+	height: 60px;
+	margin-right: 15px;
+	margin-left: 25px;
+}
+.users-list::-webkit-scrollbar {
+	width: 0px;
+}
+.users-list a .content {
+	display: flex;
+	align-items: center;
+	margin-left: 15px;
+	color: #000;
+}
+.users-list a .content p {
+	color: #67676a;
+}
+.users-list a {
+	padding-right: 15px;
+}
+.users-list a .status-dot {
+	font-size: 12px;
+	color: #00ff8c;
+}
+.users-list a .status-dot.offline {
+	color: #ccc;
+}
+/* Keyframes for the rainbow animation */
+@keyframes rainbow {
+	0% {
+		box-shadow: 0px 0px 195px rgba(211, 0, 137, 0.8);
+	}
+	20% {
+		box-shadow: 0px 0px 195px rgba(255, 2, 2, 0.8);
+	}
+	40% {
+		box-shadow: 0px 0px 195px rgba(0, 234, 255, 0.8);
+	}
+	60% {
+		box-shadow: 0px 0px 195px rgba(0, 255, 0, 0.8);
+	}
+	80% {
+		box-shadow: 0px 0px 195px rgba(255, 255, 0, 0.8);
+	}
+	100% {
+		box-shadow: 0px 0px 195px rgba(255, 127, 0, 0.8);
+	}
+}
+.hr {
+	border: 1px solid #c2c2c260;
+}
