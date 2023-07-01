@@ -12,7 +12,7 @@ body::-webkit-scrollbar {
 }
 
 .login-img img {
-	width: 804px;
+	width: 100%;
 	height: 1024px;
 	/* flex-shrink: 0; */
 	/* width: 70%; */
@@ -221,4 +221,85 @@ body::-webkit-scrollbar {
 	padding-top: 5px;
 	width: 120px;
 	height: 35px;
+}
+
+/* media queries */
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+	.wrapper .header_logo {
+		width: 100%;
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+
+	.wrapper .form,
+	.login-img {
+		margin: 0;
+	}
+
+	.wrapper .header_logo img {
+		margin: 0;
+	}
+
+	.wrapper .form1 .name-details .field-1,
+	.wrapper .name-details .field {
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.wrapper .name-details .field-1 input,
+	.wrapper .name-details .field input {
+		width: 100%;
+	}
+
+	.wrapper .name-details .field-photo input {
+		padding-top: 10px;
+		padding-left: 5px;
+	}
+
+	.wrapper .form1 .name-details .field-btn input {
+		width: 100%;
+	}
+}
+
+/* Adjustments for smaller screens (e.g., smartphones) */
+@media (max-width: 480px) {
+	.wrapper .form1 {
+		margin-top: 5%;
+	}
+
+	.wrapper .hero-title {
+		font-size: 24px;
+		line-height: 30px;
+		margin-bottom: 40px;
+	}
+
+	.wrapper .name-details .field-1,
+	.wrapper .name-details .field {
+		flex-direction: column;
+		gap: 8px;
+	}
+
+	.wrapper .name-details .field-1 label,
+	.wrapper .name-details .field label {
+		width: 100%;
+	}
+
+	.wrapper .name-details .field-1 input,
+	.wrapper .name-details .field input,
+	.wrapper .name-details .field-photo input,
+	.wrapper .form1 .name-details .field-btn input {
+		font-size: 12px;
+		height: 36px;
+	}
+
+	.wrapper .form .link {
+		font-size: 12px;
+	}
+
+	.wrapper .form .link a {
+		font-size: 12px;
+		margin-left: 10%;
+	}
 }
