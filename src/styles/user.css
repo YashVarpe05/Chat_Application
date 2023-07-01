@@ -44,7 +44,7 @@ body {
 	/* margin-left: -30px; */
 	/* border: 1px solid #e6e6e6; */
 }
-.wrapper img {
+.Rectangle3 img {
 	object-fit: cover;
 	border-radius: 50%;
 }
@@ -104,7 +104,7 @@ body {
 
 	right: 20%;
 }
-.wrapper .users .logout {
+.Rectangle3 .users .logout {
 	width: 174px;
 	height: 47px;
 	flex-shrink: 0;
