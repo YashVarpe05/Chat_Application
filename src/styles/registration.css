@@ -18,30 +18,30 @@ body::-webkit-scrollbar {
 	/* flex-shrink: 0; */
 	/* width: 70%; */
 }
-.wrapper {
+.wrapper2 {
 	display: flex;
 	justify-content: space-between;
 }
 /* align-items: center; */
-.wrapper .form {
+.wrapper2 .form {
 	margin-left: 5%;
 	margin-right: 3%;
 }
 
-.wrapper .header_logo {
+.wrapper2 .header_logo {
 	display: flex;
 	width: 700px;
 	justify-content: space-between;
 	align-items: center;
 	margin-top: 2%;
 }
-.wrapper .header_logo img {
+.wrapper2 .header_logo img {
 	width: 35px;
 	height: 35px;
 	margin: 20px -50px;
 }
 
-.wrapper .header_logo a {
+.wrapper2 .header_logo a {
 	font-size: 1.2rem;
 	font-family: Plus Jakarta Sans;
 
@@ -60,11 +60,11 @@ body::-webkit-scrollbar {
 
 /* starting of hero section of login page */
 
-.wrapper .form1 {
+.wrapper2 .form1 {
 	margin-top: 8%;
 }
 
-.wrapper .hero-title {
+.wrapper2 .hero-title {
 	color: #fff;
 	font-size: 36px;
 	font-family: Plus Jakarta Sans;
@@ -73,8 +73,37 @@ body::-webkit-scrollbar {
 	line-height: 44px;
 	margin-bottom: 62px;
 }
+/* .wrapper2 .form .form1 .error-txt p {
+	color: #fff;
+	background-color: #2d1a19;
+	color: red;
+	border: 2px solid rgb(255, 0, 0);
+	text-align: center;
+	padding-top: 10px;
+	border-radius: 12px;
+	font-size: 18px;
+	font-weight: 500;
+	width: 100%;
+	height: 50px;
+	margin-bottom: 20px;
+}
+.form form .error-text p {
+	color: #721c24;
+	padding: 8px 10px;
+	text-align: center;
+	border-radius: 5px;
+	background: #f8d7da;
+	border: 1px solid #f5c6cb;
+	margin-bottom: 10px;
+	display: none;
+} */
 
-.wrapper .name-details .field-1 {
+/* .wrapper2 .form .form1 .error-txt p {
+	background-color: #2d1a19;
+	color: rgb(255, 255, 255);
+	border: 2px solid rgb(255, 0, 0);
+} */
+.wrapper2 .name-details .field-1 {
 	display: flex;
 	align-items: flex-start;
 	gap: 24px;
@@ -90,10 +119,10 @@ body::-webkit-scrollbar {
 	line-height: 20px;
 	letter-spacing: 0.15px;
 }
-.wrapper .name-details .field-1 label {
+.wrapper2 .name-details .field-1 label {
 	width: 52%;
 }
-.wrapper .name-details .field-1 input {
+.wrapper2 .name-details .field-1 input {
 	height: 48px;
 	width: 50%;
 	color: #fff;
@@ -108,7 +137,7 @@ body::-webkit-scrollbar {
 	border: 1px solid var(--noble-black-500, #363a3d);
 	background: var(--noble-black-600, #1a1d21);
 }
-.wrapper .name-details .field {
+.wrapper2 .name-details .field {
 	margin-bottom: 5%;
 
 	color: #9b9c9e;
@@ -120,7 +149,7 @@ body::-webkit-scrollbar {
 	line-height: 20px;
 	letter-spacing: 0.15px;
 }
-.wrapper .name-details .field input {
+.wrapper2 .name-details .field input {
 	height: 48px;
 	width: 100%;
 	padding: 0px 16px;
@@ -134,11 +163,11 @@ body::-webkit-scrollbar {
 	border: 1px solid var(--noble-black-500, #363a3d);
 	background: var(--noble-black-600, #1a1d21);
 }
-.wrapper .name-details .field label {
+.wrapper2 .name-details .field label {
 	/* margin-bottom: 40px; */
 	margin-top: 5%;
 }
-.wrapper .name-details .field-btn input {
+.wrapper2 .name-details .field-btn input {
 	width: 676px;
 	height: 48px;
 
@@ -151,14 +180,14 @@ body::-webkit-scrollbar {
 	font-size: 15px;
 	font-weight: 700;
 }
-.wrapper .form .link {
+.wrapper2 .form .link {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	margin-top: 5%;
 	color: #9b9c9e;
 }
-.wrapper .form .link a {
+.wrapper2 .form .link a {
 	font-style: none;
 	font-family: Plus Jakarta Sans;
 	color: #b6f09c;
@@ -167,12 +196,12 @@ body::-webkit-scrollbar {
 
 /* hover animation  */
 
-.wrapper .header_logo a:hover {
+.wrapper2 .header_logo a:hover {
 	scale: 1.1;
 	transition: 0.8s;
 }
 
-.wrapper .form1 .name-details .field-1 input:hover {
+.wrapper2 .form1 .name-details .field-1 input:hover {
 	scale: 1.1;
 	transition: 0.9s;
 	box-shadow: rgb(112, 62, 254, 0.4) 5px 5px, rgba(112, 62, 254, 0.3) 10px 10px,
@@ -180,14 +209,14 @@ body::-webkit-scrollbar {
 		rgba(112, 62, 254, 0.05) 25px 25px;
 }
 
-.wrapper .form1 .name-details .field input:hover {
+.wrapper2 .form1 .name-details .field input:hover {
 	scale: 1.1;
 	transition: 0.9s;
 	box-shadow: rgba(116, 226, 43, 0.4) 5px 5px, rgba(116, 226, 43, 0.3) 10px 10px,
 		rgba(119, 226, 43, 0.2) 15px 15px, rgba(119, 226, 43, 0.1) 20px 20px,
 		rgba(119, 226, 43, 0.05) 25px 25px;
 }
-.wrapper .form1 .name-details .pass-btn input:hover {
+.wrapper2 .form1 .name-details .pass-btn input:hover {
 	scale: 1.1;
 	transition: 0.9s;
 	box-shadow: rgba(226, 43, 43, 0.4) 5px 5px, rgba(226, 43, 43, 0.3) 10px 10px,
@@ -195,7 +224,7 @@ body::-webkit-scrollbar {
 		rgba(226, 43, 43, 0.05) 25px 25px;
 }
 
-.wrapper .form1 .name-details .photo-btn input:hover {
+.wrapper2 .form1 .name-details .photo-btn input:hover {
 	scale: 1.1;
 	transition: 0.9s;
 	box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
@@ -203,7 +232,7 @@ body::-webkit-scrollbar {
 		rgba(240, 46, 170, 0.05) 25px 25px;
 }
 
-.wrapper .form1 .name-details .field-btn input:hover {
+.wrapper2 .form1 .name-details .field-btn input:hover {
 	scale: 1.1;
 	transition: 0.9s;
 	background-color: #703efe;
@@ -212,7 +241,7 @@ body::-webkit-scrollbar {
 	box-shadow: rgba(225, 241, 84, 0.641) 0px 22px 70px 4px;
 }
 
-.wrapper .form .link a:hover {
+.wrapper2 .form .link a:hover {
 	scale: 1.1;
 	transition: 0.9s;
 	text-decoration: underline;
@@ -227,79 +256,79 @@ body::-webkit-scrollbar {
 /* media queries */
 /* Adjustments for smaller screens */
 @media (max-width: 768px) {
-	.wrapper .header_logo {
+	.wrapper2 .header_logo {
 		width: 100%;
 	}
-	.wrapper {
+	.wrapper2 {
 		flex-direction: column;
 	}
 
-	.wrapper .form,
+	.wrapper2 .form,
 	.login-img {
 		margin: 0;
 	}
 
-	.wrapper .header_logo img {
+	.wrapper2 .header_logo img {
 		margin: 0;
 	}
 
-	.wrapper .form1 .name-details .field-1,
-	.wrapper .name-details .field {
+	.wrapper2 .form1 .name-details .field-1,
+	.wrapper2 .name-details .field {
 		flex-direction: column;
 		gap: 10px;
 	}
 
-	.wrapper .name-details .field-1 input,
-	.wrapper .name-details .field input {
+	.wrapper2 .name-details .field-1 input,
+	.wrapper2 .name-details .field input {
 		width: 100%;
 	}
 
-	.wrapper .name-details .field-photo input {
+	.wrapper2 .name-details .field-photo input {
 		padding-top: 10px;
 		padding-left: 5px;
 	}
 
-	.wrapper .form1 .name-details .field-btn input {
+	.wrapper2 .form1 .name-details .field-btn input {
 		width: 100%;
 	}
 }
 
 /* Adjustments for smaller screens (e.g., smartphones) */
 @media (max-width: 480px) {
-	.wrapper .form1 {
+	.wrapper2 .form1 {
 		margin-top: 5%;
 	}
 
-	.wrapper .hero-title {
+	.wrapper2 .hero-title {
 		font-size: 24px;
 		line-height: 30px;
 		margin-bottom: 40px;
 	}
 
-	.wrapper .name-details .field-1,
-	.wrapper .name-details .field {
+	.wrapper2 .name-details .field-1,
+	.wrapper2 .name-details .field {
 		flex-direction: column;
 		gap: 8px;
 	}
 
-	.wrapper .name-details .field-1 label,
-	.wrapper .name-details .field label {
+	.wrapper2 .name-details .field-1 label,
+	.wrapper2 .name-details .field label {
 		width: 100%;
 	}
 
-	.wrapper .name-details .field-1 input,
-	.wrapper .name-details .field input,
-	.wrapper .name-details .field-photo input,
-	.wrapper .form1 .name-details .field-btn input {
+	.wrapper2 .name-details .field-1 input,
+	.wrapper2 .name-details .field input,
+	.wrapper2 .name-details .field-photo input,
+	.wrapper2 .form1 .name-details .field-btn input {
 		font-size: 12px;
 		height: 36px;
 	}
 
-	.wrapper .form .link {
+	.wrapper2 .form .link {
 		font-size: 12px;
 	}
 
-	.wrapper .form .link a {
+	.wrapper2 .form .link a {
 		font-size: 12px;
 		margin-left: 10%;
 	}
