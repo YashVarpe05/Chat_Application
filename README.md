@@ -1,4 +1,6 @@
+# Hi, I'm Yash Varpe! 👋
 # Chat Application
+## Let's get Chat!
 
 This is a simple chat application developed using HTML, CSS, JavaScript, and PHP with a database backend. The application allows users to log in, connect with friends or team members, and chat in real-time. 
  
