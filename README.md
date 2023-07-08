@@ -10,11 +10,11 @@ This is a simple chat application developed using HTML, CSS, JavaScript, and PHP
 - Simple and intuitive interface: The application provides a user-friendly interface for a seamless chatting experience.
 
 ## 🔗 Links
-[Chat With As] (https://chatwithas.000webhostapp.com/src/php/index.php)
+[Chat With As](https://chatwithas.000webhostapp.com/src/php/index.php)
 
 ## UI Desing
 
-![App Screenshot]()
+![App Screenshot](https://github.com/YashVarpe05/Chat_Application/blob/main/Frame%202.png)
 
 
 ## Installation and Usage
